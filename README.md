@@ -17,6 +17,7 @@ To get this application running, here are a few steps(specific to linux):
   or the shorthand 
   ```
   rails s
-  ```.
+  ``` 
+  
 * Open a browser of your choice and go to the url https://localhost:3000/ , and voila, you are on the index page, showing all the products that you can buy.
 > Congratulations! You know how to open the application. Feel free to explore the code, and learn more about [Ruby on Rails](https://guides.rubyonrails.org/).
