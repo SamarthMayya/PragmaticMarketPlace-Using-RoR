@@ -7,8 +7,8 @@ To get this application running, here are a few steps(specific to linux):
 * First of all, clone the repository, and change directory to the project directory.
 * Next, run the following two commands to make sure that all the dependencies are installed:
 ```
-   bundle install
-   yarn install
+  bundle install
+  yarn install
 ```
 * Then start the rails server using the command 
   ```
