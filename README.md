@@ -5,14 +5,18 @@ This is a simple application that demonstrates the use of Ruby on Rails as a fra
 ## Deployment
 To get this application running, here are a few steps(specific to linux):
 * First of all, clone the repository, and change directory to the project directory.
-* Next, run the following two commands to make sure that all the dependencies are installed.:
+* Next, run the following two commands to make sure that all the dependencies are installed:
 ```
    bundle install
    yarn install
 ```
 * Then start the rails server using the command 
-  ```rails server``` 
+  ```
+  rails server
+  ``` 
   or the shorthand 
-  ```rails s```.
+  ```
+  rails s
+  ```.
 * Open a browser of your choice and go to the url https://localhost:3000/ , and voila, you are on the index page, showing all the products that you can buy.
-> Congratulations! You know how to open the application. Feel free to explore the code, and learn more about Ruby on Rails.
+> Congratulations! You know how to open the application. Feel free to explore the code, and learn more about [Ruby on Rails](https://guides.rubyonrails.org/).
