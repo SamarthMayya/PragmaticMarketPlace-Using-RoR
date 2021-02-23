@@ -3,7 +3,7 @@
 This is a simple application that demonstrates the use of Ruby on Rails as a framework in developing this website. I have used, along with the normal server side stuff, a little bit of AJAX as well, so that the application simulates fast loading of parts of the webpage, and thereby simulates a real life market place cart too.
 
 ## Deployment
-To get this application running, here are a few steps(specific to linux):
+To get this application running, here are a few steps(specific to linux), assuming that you have  [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm) installed:
 * First of all, [clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), and change directory to the project directory.
 * Next, run the following two commands to make sure that all the dependencies are installed:
   ```
