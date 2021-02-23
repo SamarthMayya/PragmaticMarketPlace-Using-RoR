@@ -4,7 +4,7 @@ This is a simple application that demonstrates the use of Ruby on Rails as a fra
 
 ## Deployment
 To get this application running, here are a few steps(specific to linux):
-* First of all, clone the repository, and change directory to the project directory.
+* First of all, [clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), and change directory to the project directory.
 * Next, run the following two commands to make sure that all the dependencies are installed:
   ```
   bundle install
