@@ -33,7 +33,7 @@ class LineItemsController < ApplicationController
       if @line_item.save
         session[:counter] = 0
         format.html { redirect_to store_index_url }
-        format.js
+        format.js { @current_item = @line_item }
         format.json { render :show, status: :created, location: @line_item }
       else
         format.html { render :new }
@@ -63,7 +63,7 @@ class LineItemsController < ApplicationController
     @cart.remove_product(@line_item.product)
     respond_to do |format|
       format.html { redirect_to store_index_url }
-      format.js 
+      format.js { @current_item = @line_item } 
       format.json { head :no_content }
     end
   end

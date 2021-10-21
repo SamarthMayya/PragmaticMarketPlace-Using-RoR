@@ -30,6 +30,15 @@
       border-top: solid thin;
     }
   }
+
+  .actions {
+    text-align: end;
+    //padding-right: 50px;
+    .button_to {
+      display: inline-block;
+    }
+  }
+
   input[type="submit"] {
     background-color: #881;
     border-radius: 0.354em;
